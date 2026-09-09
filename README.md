@@ -14,6 +14,8 @@ Local coffee shops near SJSU offer unique, student-focused environments but stru
 ## Data Set
 Survey data collected from SJSU students (n = 240; 60 responses per shop) across four coffee shops: **7Leaves, Break Time, Gong Cha,** and **Starbucks**.
 
+[View Dataset](Combined_Coffee_Shop_Survey_Data_Quality.csv)
+
 **Variables:**
 - `Coffee_Shop` — shop name (categorical)
 - `Ambiance` — satisfaction with atmosphere (1–5)
@@ -24,6 +26,8 @@ Survey data collected from SJSU students (n = 240; 60 responses per shop) across
 
 ## Tools
 RStudio — `ggplot2`, `dplyr`, `tidyr`, `car`
+
+[View R script](coffee_satisfaction_script.R)
 
 ## Methodology
 Satisfaction was compared across the four coffee shops using one-way ANOVA, run separately for each category and for the overall average score.
